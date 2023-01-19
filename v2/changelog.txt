@@ -1,0 +1,4 @@
+- Multiplication de la balance par 10 pour approve le token (pour éviter "TRANSACTION_FROM_FAILED" lors du sell)
+- Réglage de la progression
+- Meilleur gestion des steps lors du monitoring
+- Meilleure gestion des erreurs/exceptions

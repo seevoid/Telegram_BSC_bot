@@ -1,0 +1,29 @@
+{
+    "telegram": {
+        "api_id": 8956213,
+        "api_hash": "d3a4a1ae7f42503835e8119ec52c9099",
+        "bot_token": "XXXXXXXXXXX",
+        "channelId": ["Coinmarketcap Fastest Alerts", "Mumus Gem Club"],
+        "session_name": "monitor"
+    },
+    "parameters": {
+        "transactionRevertTimeSeconds": 10000,
+        "snipeBNBAmount": 0.01,
+        "gasAmount": 2000000,
+        "gasPrice": "7",
+        "lowThresholdSell": 0.95,
+        "highThresholdSell": 1.1,
+        "slippageSell": 0,
+        "mail_alert": true,
+        "music_alert": false
+    },
+    "BSC": {
+        "bscScanAPIKey": "XXXXXXXXXXX",
+        "walletPrivateKey": "XXXXXXXXXXX",
+        "walletAddress": "0x3A361Fea39Dab6102f709e84012568Ef604D96e2",
+        "pancakeSwapRouterAddress": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+        "bscNode": "wss://speedy-nodes-nyc.moralis.io/93e949fcee05bbb21894f1f0/bsc/mainnet/ws",
+        "pancakeSwapFactoryAddress": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+        "WBNBAdress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+    }
+}

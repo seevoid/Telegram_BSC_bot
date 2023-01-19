@@ -1,0 +1,1 @@
+ - Récupere les fees deflationary de buy et sell avec l'api StaySafu et on achete si buyFee et sellFee inférieur à 4%

@@ -1,0 +1,8 @@
+- N'utilise plus de client/serveur, mais lance un thread directement à chaque fois
+- Introduction d'un logger
+- Boucle sur buy 1 fois : si la transaction ne passe pas on rachete avec plus de gas et on augmente le prix du gas
+- Boucle sur sell 5 fois pour vendre a tout prix
+- Récupération du prix du Token avec l'API Moralis qui a l'air gratuite...
+- Récupération du gas Amount avant le buy 
+
+TODO : Recuperer les reserves et vérifier que la pair est soit BNB soit BUSD et faire le buy en fonction

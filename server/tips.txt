@@ -1,0 +1,13 @@
+IP : 135.181.223.100
+mdp root : YW5EY3TbgGUwrQ
+
+
+check status : curl localhost:27147/status
+monitoring prometheus : curl localhost:28660/metrics
+config : /root/.bnbchaind/config/config.toml
+
+POUR RECOMMENCER :
+- Supprimer $BNCHOME/data et $BNCHOME/config/priv_validator_key.json
+- Lancer : bnbchaind start --home $BNCHOME&
+- kill le process qui prend le port qui fait chier : netstat -a | grep {port}
+- Relancer : bnbchaind start --home $BNCHOME&

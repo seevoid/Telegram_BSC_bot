@@ -1,0 +1,3 @@
+- Regex pour detecter la Liquidity dans le post CMC: Si c'est BNB et entre la fourchette défini alors on achete
+- On check les prix avec Moralis, plus fiable et plus rapide
+- Ajout de loggers pour plus d'infos

@@ -1,7 +1,7 @@
 {
     "telegram": {
         "api_id": 8956213,
-        "api_hash": "d3a4a1ae7f42503835e8119ec52c9099",
+        "api_hash": "XXXXXXXXXXX",
         "bot_token": "XXXXXXXXXXX",
         "channelId": ["https://t.me/CMCCGPremiumAlerts", "https://t.me/mumusgems", "https://t.me/CMC_fastest_alerts"],
         "session_name": "monitor"
@@ -19,7 +19,7 @@
         "mail_alert": false,
         "music_alert": false,
         "sell": true,
-        "max_concurrent_tokens": 1,
+        "max_concurrent_tokens": 3,
         "test_mode": false,
         "max_buy_fees": 5,
         "max_sell_fees": 5,
@@ -29,12 +29,15 @@
     "BSC": {
         "bscScanAPIKey": "XXXXXXXXXXX",
         "walletPrivateKey": "XXXXXXXXXXX",
-        "walletAddress": "0x3A361Fea39Dab6102f709e84012568Ef604D96e2",
+        "walletAddress": "XXXXXXXXXXX",
         "pancakeSwapRouterAddress": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
-        "bscNode": "wss://speedy-nodes-nyc.moralis.io/93e949fcee05bbb21894f1f0/bsc/mainnet/ws",
+        "bscNode": "XXXXXXXXXXX",
         "pancakeSwapFactoryAddress": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
         "WBNBAdress": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
         "USDTAdress": "0x55d398326f99059ff775485246999027b3197955",
         "BUSDAdress": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+    },
+    "MORALIS": {
+        "moralisApiKey": "XXXXXXXXXXX"
     }
 }

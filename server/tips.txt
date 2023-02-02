@@ -1,7 +1,3 @@
-IP : 135.181.223.100
-mdp root : YW5EY3TbgGUwrQ
-
-
 check status : curl localhost:27147/status
 monitoring prometheus : curl localhost:28660/metrics
 config : /root/.bnbchaind/config/config.toml

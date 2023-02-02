@@ -98,6 +98,9 @@ with open(configFile) as f:
         USDTAdress = config["BSC"]["USDTAdress"]
         BUSDAdress =config["BSC"]["BUSDAdress"]
 
+        # MORALIS
+        moralisApiKey = config["MORALIS"]["moralisApiKey"]
+
 token_already_got = []
 token_thread_list = []
 TEST_SELL = False

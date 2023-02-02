@@ -20,14 +20,19 @@ You can configure a lot of parameters : see config.json in v6 folder (last versi
 
 2. Install the required libraries.
 
-- using pip :
+    - using pip :
 
-    ```terminal
-    pip install -r requirements.txt
+        ```terminal
+        pip install -r requirements.txt
 
 3. Set all the parameters in v6/config.json
 
-- bscNode: I used to use Moralis that provide the faster free node. If you want better perf you need to use your own deployed mainnet node.
+    - bscNode: I used to use Moralis that provide the faster free node. If you want better perf you need to use your own deployed mainnet node.
+    - bot_token: You need to generate a telegram bot token
+    - max_concurrent_tokens: The number of tokens to monitor in the same time (I use multi threading)
+    - gasPrice / gasAmount: You'll probably have to play with those values to be the fast as possible to sell/buy tokens
+    - lowThresholdSell: The bot sell if the token value is lowThresholdSell*buyingValue
+    - highThresholdSell: The bot sell if the token value is buyingValue*0.1*highThresholdSell. But theres are steps of 0.1, so you can't go below after each step passed.
 
 4. Start the bot.
 

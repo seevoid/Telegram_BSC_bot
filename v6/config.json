@@ -14,7 +14,7 @@
         "gasAmount": 600000,
         "gasPrice": "7",
         "lowThresholdSell": 0.95,
-        "highThresholdSell": 3,
+        "highThresholdSell": 50,
         "slippageSell": 0,
         "mail_alert": false,
         "music_alert": false,

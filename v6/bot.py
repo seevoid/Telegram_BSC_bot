@@ -92,7 +92,7 @@ class TokenMonitor (threading.Thread):
                 self.listStep = []
                 self.buyingSucceed = False
                 self.step = 0.1
-                for i in range(1,50):
+                for i in range(1,highThresholdSell):
                         self.listStep.append(1 + i*self.step)
                 # balanceBNB = self.getBNBBalanceThread()
                 if TEST_MODE:

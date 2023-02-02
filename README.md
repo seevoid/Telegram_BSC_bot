@@ -18,14 +18,19 @@ You can configure a lot of parameters : see config.json in v6 folder (last versi
     ```terminal
     git clone https://github.com/seevoid/Telegram_BSC_bot.git
 
-2. Install the required libraries.
+1. Activate virtual env.
+    - on Windows :
+        ```terminal
+        ./telegram_bsc_bot_env/Scripts/activate
+
+3. Install the required libraries.
 
     - using pip :
 
         ```terminal
         pip install -r requirements.txt
 
-3. Set all the parameters in v6/config.json
+4. Set all the parameters in v6/config.json
 
     - bscNode: I used to use Moralis that provide the faster free node. If you want better perf you need to use your own deployed mainnet node.
     - bot_token: You need to generate a telegram bot token
@@ -34,7 +39,7 @@ You can configure a lot of parameters : see config.json in v6 folder (last versi
     - lowThresholdSell: The bot sell if the token value is lowThresholdSell*buyingValue
     - highThresholdSell: The bot sell if the token value is buyingValue*0.1*highThresholdSell. But theres are steps of 0.1, so you can't go below after each step passed.
 
-4. Start the bot.
+5. Start the bot.
 
     ```terminal
     python v6/bot.py
